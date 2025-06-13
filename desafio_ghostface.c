@@ -39,7 +39,7 @@ int main() {
                 printf("Ghostface: \"Muito baixo! Parece que voce nao e tao esperto.\"\n");
             } else {
                 printf("\nGhostface: \"IMPOSSIVEL! Voce adivinhou meu numero %d em %d tentativas!\"\n", numeroAleatorio, tentativas);
-                printf("VOCE SOBREVIVEU A ESSA RODADA! POR POUCO!\n");
+                printf("\nVOCE SOBREVIVEU A ESSA RODADA! POR POUCO!\n");
             }
         } while (palpite != numeroAleatorio);
 
@@ -51,7 +51,7 @@ int main() {
 
     printf("\n---------------------------------------------------------\n");
     printf("         Ghostface: \"Ate a proxima ligacao...\"\n");
-    printf("          FIM DO JOGO. Cuidado ao atender o telefone.\n");
+    printf("         FIM DO JOGO. Cuidado ao atender o telefone.\n");
     printf("---------------------------------------------------------\n");
 
     return 0;
